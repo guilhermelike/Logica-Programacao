@@ -25,6 +25,7 @@ function adicionar(){
         `;
         secao.innerHTML += linhaProduto;
         document.getElementById('valor-total').textContent = `R$${total}`;
+        document.getElementById('quantidade').value = 0;
     }
 }
 
